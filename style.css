@@ -1,0 +1,92 @@
+*
+{
+	font-family:'impact';
+}
+
+body
+{
+	background-color:#42597c;
+}
+
+#pargraph
+{
+	color:red;
+	font-size:30pt;
+	font-family:'calibri';
+	border:15px solid white;
+	border-radius:50px;
+	margin:40px;
+	padding:60px
+}
+
+#pargraph:first-letter
+{
+	font-size:44pt;
+	text-decoration:underline;
+	color:yellow;
+}
+#pargraph:after
+{
+	content:"end of pargraph.";
+}
+#pargraph:before
+{
+	content:"start of pargraph";
+}
+
+
+li.p_style
+{
+	color:blue;
+	font-size:18pt;
+	font-family:'calibri';
+	border-left:5px solid black
+}
+
+p.p_style
+{
+	color:blue;
+	font-size:22pt;
+	font-family:'calibri';
+}
+
+.li_style
+{
+	color:#c41613;
+	font-size:22pt;
+	font-family:'calibri';
+}
+
+a:link
+{
+	color:yellow;
+	text-decoration:none;
+}
+a:hover
+{
+	color:black;
+	text-decoration:underline;
+}
+a:active
+{
+	color:red;
+}
+a:visited
+{
+	color:gray;
+	text-decoration:none;
+}
+#list_employees
+{
+	list-style-type:upper-roman;
+	list-style-position:inside;
+}
+
+
+
+
+
+
+
+
+
